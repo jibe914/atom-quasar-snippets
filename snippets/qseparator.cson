@@ -1,0 +1,8 @@
+'.text.html.vue':
+  #Quasar Separator
+  'Quasar Separator':
+    'prefix': 'q-separator'
+    'body': '<q-separator $1/>'
+  'Quasar Vertical Separator':
+    'prefix': 'q-separator'
+    'body': '<q-separator vertical $1/>'

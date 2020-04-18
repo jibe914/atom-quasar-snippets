@@ -1,0 +1,7 @@
+'.text.html.vue':
+  'QCard':
+    'prefix': 'q-card'
+    'body': '<q-card>\n\t$1\n</q-card>'
+  'QCard Section':
+    'prefix': 'q-card-section'
+    'body': '<q-card-section>\n\t$1\n</q-card-section>'

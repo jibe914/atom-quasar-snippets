@@ -1,0 +1,29 @@
+{
+  "name": "atom-quasar-snippets",
+  "main": "./snippets",
+  "version": "0.0.1",
+  "description": "A snippets of Quasar Framework for Atom",
+  "keywords": [
+    "atom",
+    "quasar",
+    "framework",
+    "snippet",
+    "snippets"
+  ],
+  "author": "Thomas Jacquart <thomas.jacquart@gmail.com>",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom/atom-quasar-snippets"
+  },
+  "bugs": {
+    "url": "https://github.com/atom/atom-quasar-snippets/issues"
+  },
+  "homepage": "https://github.com/atom/atom-quasar-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
