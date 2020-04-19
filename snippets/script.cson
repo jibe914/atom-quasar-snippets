@@ -1,0 +1,13 @@
+'.source.js, .source.js.vue':
+  'Store dispatch':
+    'prefix': 'sdispatch'
+    'body': """
+      this.$store.dispatch(\'$1\')
+        .then(${2:data} => {
+          $3
+        })
+        .catch(e => { console.error(e) })
+    """
+  'Context dispatch':
+    'prefix': 'cdispatch'
+    'body': 'context.dispatch(\'$1\')'

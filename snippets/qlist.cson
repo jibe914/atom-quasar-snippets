@@ -1,0 +1,14 @@
+  #QList
+'.text.html.vue':
+  'Quasar List':
+    'prefix': 'q-list'
+    'body': '<q-list>\n\t$1\n</q-list>'
+  'Quasar List template':
+    'prefix': 'q-list-template'
+    'body': """
+      <q-list>
+        <q-item>
+          <q-item-section>$1</q-item-section>
+        </q-item>
+      </q-list>
+    """
