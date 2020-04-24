@@ -3,6 +3,9 @@
   'Quasar List':
     'prefix': 'q-list'
     'body': '<q-list>\n\t$1\n</q-list>'
+  'Quasar List item':
+    'prefix': 'q-item'
+    'body': '<q-item>$1</q-item>'
   'Quasar List template':
     'prefix': 'q-list-template'
     'body': """

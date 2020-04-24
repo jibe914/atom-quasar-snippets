@@ -5,3 +5,6 @@
   'QCard Section':
     'prefix': 'q-card-section'
     'body': '<q-card-section>\n\t$1\n</q-card-section>'
+  'QCard Actions':
+    'prefix': 'q-card-actions'
+    'body': '<q-card-actions align="${1:left}">\n\t$2\n</q-card-actions>'

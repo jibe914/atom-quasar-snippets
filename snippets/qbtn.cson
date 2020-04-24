@@ -2,7 +2,7 @@
   #Quasar Button
   'QBtn':
     'prefix': 'q-btn'
-    'body': '<q-btn\n\tlabel="$1"\n\tcolor="$2"\n/>'
+    'body': '<q-btn label="$1" color="$2" />'
   'QBtn extended':
     'prefix': 'q-btnx'
     'body': '<q-btn color="${1:primary}">\n\t// slot content\n</q-btn>'

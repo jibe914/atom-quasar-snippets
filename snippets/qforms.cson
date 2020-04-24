@@ -1,0 +1,4 @@
+'.text.html.vue':
+  'QInput element':
+    'prefix': 'q-input'
+    'body': '<q-input type="${1:text}" v-model={2:model} />'

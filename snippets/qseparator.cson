@@ -4,5 +4,5 @@
     'prefix': 'q-separator'
     'body': '<q-separator $1/>'
   'Quasar Vertical Separator':
-    'prefix': 'q-separator'
+    'prefix': 'q-separator-vertival'
     'body': '<q-separator vertical $1/>'
