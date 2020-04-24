@@ -5,7 +5,13 @@
     'body': '<q-list>\n\t$1\n</q-list>'
   'Quasar List item':
     'prefix': 'q-item'
-    'body': '<q-item>$1</q-item>'
+    'body': '<q-item>\n\t$1\n</q-item>'
+  'Quasar List item section':
+    'prefix': 'q-item-section'
+    'body': '<q-item-section>\n\t$1\n</q-item-section>'
+  'Quasar List item label':
+    'prefix': 'q-item-label'
+    'body': '<q-item-label>\n\t$1\n</q-item-label>'
   'Quasar List template':
     'prefix': 'q-list-template'
     'body': """

@@ -1,0 +1,18 @@
+'.text.html.vue':
+  'QAvatar w/ Icon':
+    'prefix': 'q-avatar-icon'
+    'body': '<q-avatar icon="${1:directions}" ${2:square} ${3:rounded} ${4:color="${5:primary}"} ${6:text-color="${7:white}"} ${8:size="${9:sm}"} />'
+  'QAvatar w/ Text':
+    'prefix': 'q-avatar-text'
+    'body': """
+      <q-avatar color="${1:primary}" text-color="${2:white}">
+        ${3:A}
+      </q-avatar>
+    """
+  'QAvatar w/ Image':
+    'prefix': 'q-avatar-img'
+    'body': """
+      <q-avatar>
+        <img src="${1:https://cdn.quasar.dev/img/avatar.png}">
+      </q-avatar>
+    """
