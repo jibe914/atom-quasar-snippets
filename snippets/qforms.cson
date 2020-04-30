@@ -1,4 +1,7 @@
 '.text.html.vue':
+  'QForm element':
+    'prefix': 'q-form'
+    'body': '<q-form method="${1:post}" @submit="${2:onSubmit}" ${3:@reset="${4:onReset}"}>\n\t$5\n</q-form>'
   'QInput element':
     'prefix': 'q-input'
-    'body': '<q-input type="${1:text}" v-model={2:model} />'
+    'body': '<q-input type="${1:text}" v-model="${2:model}" />'
